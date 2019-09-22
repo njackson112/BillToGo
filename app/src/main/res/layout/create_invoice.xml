@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9146994"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:boxedEdges="all">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="Create Invoice"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/invoice_number"
+                    android:layout_width="140dp"
+                    android:layout_height="45dp"
+                    android:hint="Invoice #"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/invoice_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="Inv. Date"
+                    android:inputType="date"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/due_Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Due Date"
+                    android:inputType="date"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/submit_invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#FF8A1A"
+            android:layout_gravity="bottom|center"
+            android:text="Submit" />
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>
