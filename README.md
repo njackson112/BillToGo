@@ -2,6 +2,7 @@
 *Winner of Bill.com Wearable IOT Tech Challenge - HackRice 2019*
 
 ![BillToGo](https://github.com/njackson112/BillToGo/blob/master/watchwrist.jpg)
+![LandingPage](https://github.com/njackson112/BillToGo/blob/master/open_page.PNG)
 
 A WearOS application designed for Android watches completing major Bill.com workflows.
 
