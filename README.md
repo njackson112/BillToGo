@@ -1,7 +1,7 @@
 # BillToGo
 *Winner of Bill.com Wearable IOT Tech Challenge - HackRice 2019*
 
-![BillToGo](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "BTG Landing Page")
+![BillToGo](https://github.com/njackson112/BillToGo/blob/master/watchwrist.jpg)
 
 A WearOS application designed for Android watches completing major Bill.com workflows.
 
